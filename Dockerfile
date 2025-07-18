@@ -5,8 +5,7 @@ RUN apt-get install -y apache2 \
  unzip
 ADD https://www.tooplate.com/download/2137_barista_cafe /var/www/html/
 WORKDIR /var/www/html/
-RUN unzip photogenic.zip
-RUN cp -rvf photogenic/* .
-RUN rm -rf photogenic photogenic.zip
+RUN unzip 2137_barista_cafe.zip
+RUN cp -rvf 2137_barista_cafe/* .
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 EXPOSE 80   
