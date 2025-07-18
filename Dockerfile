@@ -1,6 +1,6 @@
 FROM ubuntu
 RUN apt-get update 
-RUN apt-get install -y httpd \
+RUN apt-get install -y apache2 \
  zip\
  unzip
 ADD https://www.tooplate.com/download/2137_barista_cafe /var/www/html/
