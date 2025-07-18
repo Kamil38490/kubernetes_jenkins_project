@@ -1,6 +1,6 @@
-FROM centos:centos7.9.2009
-RUN yum -y update 
-RUN yum install -y httpd \
+FROM ubuntu
+RUN apt-get update 
+RUN apt-get install -y httpd \
  zip\
  unzip
 ADD https://www.tooplate.com/download/2137_barista_cafe /var/www/html/
