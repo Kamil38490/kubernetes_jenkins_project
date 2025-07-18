@@ -1,5 +1,5 @@
 FROM centos:centos7.9.2009
-RUN yum update 
+RUN yum -y update 
 RUN yum install -y httpd \
  zip\
  unzip
