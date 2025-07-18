@@ -1,7 +1,7 @@
 FROM ubuntu
 WORKDIR /var/www/html
 RUN apt-get update 
-RUN apt-get install -y apache2 \
+RUN apt-get install -y apache2 
 COPY . .
 WORKDIR /var/www/html/
 RUN chmod -R 777 /var/www/html/
