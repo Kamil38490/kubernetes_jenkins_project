@@ -1,4 +1,4 @@
-FROM centos:7
+FROM ubuntu:latest
 RUN yum update 
 RUN yum install -y httpd \
  zip\
