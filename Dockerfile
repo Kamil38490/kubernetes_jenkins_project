@@ -5,4 +5,4 @@ RUN apt-get install -y apache2
 COPY . .
 WORKDIR /var/www/html/
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
-EXPOSE 80   
+EXPOSE 80 443  
