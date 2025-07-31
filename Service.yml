@@ -9,5 +9,5 @@ spec:
       targetPort: 80
       
   selector:
-    app: webapp
+    app: web
     type: ClusterIP
