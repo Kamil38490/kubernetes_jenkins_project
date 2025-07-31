@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: kamil38490/pipeline-demo:latest
+        image: kamil38490/pipeline-demo
         imagePullPolicy: Always
         ports:
         - containerPort: 80
