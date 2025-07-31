@@ -10,4 +10,4 @@ spec:
       nodePort: 31200
   selector:
     app: webapp
-    type: LoadBalancer
+    type: ClusterIP
