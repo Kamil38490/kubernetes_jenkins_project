@@ -1,4 +1,4 @@
-apiVersion: v1
+piVersion: v1
 kind: Service
 metadata:
   creationTimestamp: "2025-08-04T09:43:52Z"
@@ -21,8 +21,3 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
- app: webapp
-  sessionAffinity: None
-  type: ClusterIP
-status:
-  loadBalancer: {}
